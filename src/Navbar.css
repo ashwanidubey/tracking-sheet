@@ -1,0 +1,20 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    padding: 12px;
+  }
+  .nav-item {
+    background: #eee;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  .nav-item.active {
+    background: #0077ff;
+    color: white;
+  }
+  
+ 
